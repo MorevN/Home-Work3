@@ -1,0 +1,46 @@
+.parent{
+  background-image: url('../img/img2/background.png');
+  width:960px;
+  height: 883px;
+  background-color: grey;
+  list-style: none;
+  margin: 0 auto;
+ }
+
+/*header*/
+.logo {
+ padding-top: 92px;
+ padding-left: 113px;
+ width:264px;
+ height: 147px;
+ position: absolute;
+}
+
+.Contact_us {
+margin: 175px 780px;
+width:100px;
+height: 40px;
+position: absolute;
+}
+
+/*content*/
+.catalog {
+width: 900px;
+position: absolute;
+margin: 280px 60px;
+}
+
+.catalog li {
+display: inline-block;
+float: left;
+vertical-align: top;
+padding: 25px 10px;
+}
+
+/*footer*/
+.footer {
+position: absolute;
+margin: 825px 440px;}
+
+.catalog li:hover{
+background-color: white;
